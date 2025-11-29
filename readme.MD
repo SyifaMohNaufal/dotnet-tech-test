@@ -57,7 +57,7 @@ much performance.
         <br>&nbsp;&nbsp;&nbsp;3. Explain how your approach would differ if this counter were implemented in a
 distributed environment instead of a single process.
     <br>Answers:
-        <br>&nbsp;&nbsp;&nbsp;1. The potential problem that could occur is there will be a race condition where it causes a lost update that maskes the result incorrect. this happens because if a multi-thread runs at a same time every thread will read the same condition and increment/decrement at the same this that that will make an unpredictable result. for example when there is 2 threads that hits increment, first thread and second there will read the counter 0 at the same time, that will result the increment just will count 1 time and the result is 1, not 2 as expected. 
+        <br>&nbsp;&nbsp;&nbsp;1. The potential problem that could occur is there will be a race condition where it causes a lost update that maskes the result incorrect. this happens because if a multi-thread runs at a same time every thread will read the same condition and increment/decrement at the same time this that that will make an unpredictable result. for example when there is 2 threads that hits increment, first thread and second there will read the counter 0 at the same time, that will result the increment just will count 1 time and the result is 1, not 2 as expected. 
         <br>&nbsp;&nbsp;&nbsp;2.
 
         public class CounterService
