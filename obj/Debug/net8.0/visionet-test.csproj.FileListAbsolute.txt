@@ -1,0 +1,14 @@
+D:\NAUFAL\Programming\dotnet\visionet\visionet-test\obj\Debug\net8.0\visionet-test.GeneratedMSBuildEditorConfig.editorconfig
+D:\NAUFAL\Programming\dotnet\visionet\visionet-test\obj\Debug\net8.0\visionet-test.AssemblyInfoInputs.cache
+D:\NAUFAL\Programming\dotnet\visionet\visionet-test\obj\Debug\net8.0\visionet-test.AssemblyInfo.cs
+D:\NAUFAL\Programming\dotnet\visionet\visionet-test\obj\Debug\net8.0\visionet-test.csproj.CoreCompileInputs.cache
+D:\NAUFAL\Programming\dotnet\visionet\visionet-test\bin\Debug\net8.0\visionet-test.exe
+D:\NAUFAL\Programming\dotnet\visionet\visionet-test\bin\Debug\net8.0\visionet-test.deps.json
+D:\NAUFAL\Programming\dotnet\visionet\visionet-test\bin\Debug\net8.0\visionet-test.runtimeconfig.json
+D:\NAUFAL\Programming\dotnet\visionet\visionet-test\bin\Debug\net8.0\visionet-test.dll
+D:\NAUFAL\Programming\dotnet\visionet\visionet-test\bin\Debug\net8.0\visionet-test.pdb
+D:\NAUFAL\Programming\dotnet\visionet\visionet-test\obj\Debug\net8.0\visionet-test.dll
+D:\NAUFAL\Programming\dotnet\visionet\visionet-test\obj\Debug\net8.0\refint\visionet-test.dll
+D:\NAUFAL\Programming\dotnet\visionet\visionet-test\obj\Debug\net8.0\visionet-test.pdb
+D:\NAUFAL\Programming\dotnet\visionet\visionet-test\obj\Debug\net8.0\visionet-test.genruntimeconfig.cache
+D:\NAUFAL\Programming\dotnet\visionet\visionet-test\obj\Debug\net8.0\ref\visionet-test.dll

@@ -1,0 +1,71 @@
+
+        <html>
+        <head>
+            <title>Invoice Integrity Checker</title>
+            <style>
+                body { 
+                        font-family: Arial; 
+                        padding: 20px; 
+                    }
+                .table-wrapper { 
+                        display: flex; 
+                        gap: 30px;
+                    }
+                table { 
+                        border-collapse: collapse; 
+                        width: 100%; 
+                    }
+                th, td { 
+                        border: 1px solid #999; 
+                        padding: 8px; 
+                        text-align: left; 
+                    }
+                th { 
+                        background: #333; 
+                        color: white; 
+                    }
+                .box {
+                    width: 50%;
+                }
+            </style>
+        </head>
+
+        <body>
+            <div class='table-wrapper'>
+                <div class='box'>
+                    <h2>Invoices</h2>
+                    <table>
+                        <tr>
+                            <th>InvoiceID</th>
+                            <th>TotalAmount</th>
+                        </tr>
+                        <tr><td>INV001</td><td>250000</td></tr><tr><td>INV002</td><td>90000</td></tr><tr><td>INV003</td><td>180000</td></tr><tr><td>INV004</td><td>200000</td></tr>
+                    </table>
+                </div>
+            
+                <div class=box>
+                    <h2>Invoice Details</h2>
+                    <table>
+                        <tr>
+                            <th>InvoiceID</th>
+                            <th>Qty</th>
+                            <th>Price</th>
+                        </tr>
+                        <tr'><td>INV001</td><td>2</td><td>125000</td></tr><tr'><td>INV002</td><td>1</td><td>90000</td></tr><tr'><td>INV003</td><td>2</td><td>90000</td></tr><tr'><td>INV004</td><td>2</td><td>110000</td></tr>
+                    </table>
+                </div>
+            </div>
+            
+            <h2>Invoice Integrity Checker</h2>
+            <table>
+                <tr>
+                    <th>InvoiceID</th>
+                    <th>System Total</th>
+                    <th>Calculated Total</th>
+                    <th>Status</th>
+                </tr>
+                <tr style='background:#d4ffd4;'><td>INV001</td><td>250000</td><td>250000</td><td>✔ Valid</td></tr><tr style='background:#d4ffd4;'><td>INV002</td><td>90000</td><td>90000</td><td>✔ Valid</td></tr><tr style='background:#d4ffd4;'><td>INV003</td><td>180000</td><td>180000</td><td>✔ Valid</td></tr><tr style='background:#ffd4d4;'><td>INV004</td><td>200000</td><td>220000</td><td>❌ Mismatch</td></tr>
+            </table>
+        </body>
+        </html>
+        
