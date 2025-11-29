@@ -1,3 +1,4 @@
+.NET Developer Technical Test
 1. Statement Test; Code Analysis & Optimization. 
     <br>Questions:
     <br>&nbsp;&nbsp;&nbsp;1. Explain the main performance issue with this code.
@@ -82,7 +83,9 @@ distributed environment instead of a single process.
 
     <br>&nbsp;&nbsp;&nbsp;3.In the correct version that I approach to ensure thread-safety is using interlocked, in a single process all thread share the same memory so atomic CPU intruction guarantee thread safety. In a distributed environment this approach cannot synchronize counter from across node because every node have its own memory. In a distributed environment I would move the counter to a shared distributed system like redis using ```INCR``` or a database with atomic update because this remain atomic and consistent across servers. 
 3. Data Integrity & UI Test; Transactional Consistency with Visualization. 
-    <br>Clone this repo and run the command: <br>
+    <br>1. Clone the repository
+    <br>2. ensure you have .NET 8 SDK installed
+    <br>3. run the command: <br>
 
     ```csharp
     dotnet run
